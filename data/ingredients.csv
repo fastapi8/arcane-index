@@ -1,0 +1,168 @@
+ingredient,dish_type,energy,status_effects,rarity
+Banana,Cooked Banana,12,Invigorating I,common
+Blue mushroom,Steamed Blue Mushroom,14,Energizing II,uncommon
+Brown mushroom,Steamed Brown Mushroom,12,Energizing I,common
+Cloudcap mushroom,Steamed Cloudcap Mushroom,13,Energizing II,uncommon
+Coconut,Cooked Coconut,3,,common
+Cursed mushroom,Steamed Cursed Mushroom,23,"Energizing III, Insanity III",rare
+Festive Cookie Dough,Cookie,45,Energizing I,rare
+Giant banana,Cooked Giant Banana,36,Invigorating II,uncommon
+Giant greencap,Steamed Giant Greencap,25,Energizing III,rare
+Giant lemon,Cooked Giant Lemon,36,Invigorating III,rare
+Giant orange,Cooked Giant Orange,13,Invigorating II,uncommon
+Giant purplecap,Steamed Giant Purplecap,45,Energizing IV,mystic
+Giant red apple,Cooked Giant Red Apple,36,Invigorating II,uncommon
+Giant redcap,Steamed Giant Redcap,30,Energizing III,rare
+Giant seacap,Steamed Giant Seacap,44,Energizing IV,mystic
+Giant sky apple,Cooked Giant Sky Apple,54,Invigorating IV,mystic
+Giant stratos apple,Cooked Giant Stratos Apple,79,Invigorating V,legendary
+Grapes,Cooked Grapes,5,,common
+Green apple,Cooked Green Apple,13,Invigorating I,common
+Lime,Cooked Lime,12,Invigorating II,uncommon
+Mango,Cooked Mango,12,Invigorating II,uncommon
+Marula,Cooked Marula,15,Invigorating II,uncommon
+Omprela mushroom,Steamed Omprela Mushroom,27,Energizing III,rare
+Orange,Cooked Orange,4,,common
+Orange Swiftcap,Steamed Orange Swiftcap,15,"Energizing III, Featherfall III",rare
+Peach,Cooked Peach,6,Invigorating II,uncommon
+Prickly pear,Cooked Prickly Pear,13,Invigorating II,uncommon
+Pumpkin,Pumpkin Pie,40,Invigorating II,uncommon
+Red apple,Cooked Red Apple,12,Invigorating I,common
+Satura mushroom,Steamed Satura Mushroom,160,Energizing V,legendary
+Seacap mushroom,Steamed Seacap Mushroom,22,Energizing III,rare
+Sky apple,Cooked Sky Apple,18,Invigorating III,rare
+Sky grapefruit,Cooked Sky Grapefruit,17,Invigorating III,rare
+Sky grapes,Cooked Sky Grapes,6,Invigorating III,rare
+Sky lemon,Cooked Sky Lemon,13,Invigorating III,rare
+Sky pear,Cooked Sky Pear,20,Invigorating III,rare
+Sky pumpkin,Pumpkin Pie,61,Invigorating IV,mystic
+Sky watermelon,Cooked Sky Watermelon,9,Invigorating III,rare
+Sourcap,Steamed Sourcap,10,Energizing II,uncommon
+Stormfruit,Cooked Stormfruit,37,Invigorating IV,mystic
+Stratos apple,Cooked Stratos Apple,26,Invigorating IV,mystic
+Stratos grapefruit,Cooked Stratos Grapefruit,25,Invigorating IV,mystic
+Stratos lemon,Cooked Stratos Lemon,20,Invigorating IV,mystic
+Stratos pear,Cooked Stratos Pear,30,Invigorating IV,mystic
+Stratos pumpkin,Pumpkin Pie,93,Invigorating V,legendary
+Stratos watermelon,Cooked Stratos Watermelon,13,Invigorating IV,mystic
+Stratos sourcap,Steamed Stratos Sourcap,16,Energizing III,rare
+Tomato,Cooked Tomato,14,Invigorating II,uncommon
+Watermelon,Cooked Watermelon,6,Invigorating II,common
+Wheat,Bread,21,Recovery I,uncommon
+White mushroom,Steamed White Mushroom,14,Energizing I,common
+Raw Kraken meat,Grilled Kraken Meat,240,Recovery IV,mystic
+Raw Krystoros meat,Grilled Krystoros Meat,202,"Recovery IV, Poisoned IV",mystic
+Raw Kynatos meat,Grilled Kynatos Meat,90,Recovery IV,mystic
+Raw Omen meat,Grilled Omen Meat,320,Recovery V,legendary
+Raw Pnevma meat,Grilled Pnevma Meat,90,Recovery IV,mystic
+Raw Terasavros meat,Grilled Terasavros Meat,202,"Recovery IV, Poisoned IV",mystic
+Raw Thymos meat,Grilled Thymos Meat,180,"Recovery IV, Poisoned IV",mystic
+Raw bear meat,Grilled Bear Meat,60,Recovery I,common
+Raw bird meat,Grilled Bird Meat,15,Recovery I,common
+Raw boar meat,Grilled Boar Meat,37,Recovery I,common
+Raw crocodile meat,Grilled Crocodile Meat,52,Recovery I,common
+Raw deer meat,Grilled Deer Meat,67,Recovery I,common
+Raw rabbit meat,Grilled Rabbit Meat,15,Recovery I,common
+Raw tiger meat,Grilled Tiger Meat,45,Recovery I,common
+Raw wolf meat,Grilled Wolf Meat,30,Recovery I,common
+Basil herb,,0,,common
+Cardamom spice,,0,,uncommon
+Clove spice,,0,,uncommon
+Garlic spice,,0,,uncommon
+Marjoram herb,,0,,common
+Horizon rosemary,,0,,rare
+Lemongrass herb,,0,,uncommon
+Molten latana,,0,,rare
+Moly,,0,,legendary
+Pepper spice,,0,,uncommon
+Rock salt,,0,,common
+Samerian Ice,,0,,rare
+Sea kale,,0,,rare
+Sun caraway,,0,,rare
+Vanilla herb,,0,,common
+Betta,Fish Patty,19,Recovery I,common
+Neon Tetra,Fish Patty,19,Recovery I,common
+Shiner,Fish Patty,19,Recovery I,common
+Tilapia,Grilled Fish,22,Recovery I,common
+White Bass,Grilled Fish,24,Recovery I,common
+Yellow Perch,Grilled Fish,24,Recovery I,common
+Archerfish,Grilled Fish,21,Recovery I,common
+Barbel Steed,Fish Patty,19,Recovery I,common
+Bleak,Grilled Fish,22,Recovery I,common
+Burbot,Grilled Fish,27,Recovery I,common
+Guppy,Fish Patty,18,Recovery I,common
+Pale Bleak,Grilled Fish,22,Recovery I,common
+Common Barbel,Grilled Fish,28,Recovery I,common
+Crucian Carp,Fish Patty,21,Recovery I,common
+Dace,Grilled Fish,24,Recovery I,common
+Loach,Grilled Fish,24,Recovery I,common
+Pond Smelt,Fish Patty,19,Recovery I,common
+Salmon,Grilled Salmon,37,Recovery I,common
+Bitterling,Grilled Fish,21,Recovery I,common
+Blackfish,Grilled Fish,22,Recovery I,common
+Grayling,Grilled Fish,30,Recovery I,common
+Lake Chub,Fish Patty,19,Recovery I,common
+Lenok,Grilled Fish,27,Recovery I,common
+Northern Char,Grilled Fish,28,Recovery I,common
+Freshwater Drum,Grilled Giant Fish,40,Recovery II,uncommon
+Oscar,Grilled Fish,27,Recovery II,uncommon
+Payara,Grilled Fish,25,Recovery II,uncommon
+Piranha,Grilled Fish,25,Recovery II,uncommon
+Lake Trout,Grilled Fish,27,Recovery II,uncommon
+Snakehead,Grilled Fish,27,Recovery II,uncommon
+Turtle,Grilled Turtle,24,Recovery II,uncommon
+Walleye,Grilled Giant Fish,39,Recovery II,uncommon
+Bluegill,Grilled Fish,24,Recovery II,uncommon
+Goldfish,Fish Patty,18,Recovery II,uncommon
+Koi,Grilled Fish,34,Recovery II,uncommon
+Rainbow Trout,Grilled Fish,28,Recovery II,uncommon
+Cold Cisco,Grilled Fish,30,Recovery II,uncommon
+Rainbow Smelt,Grilled Fish,22,Recovery II,uncommon
+Sterlet,Grilled Giant Fish,39,Recovery II,uncommon
+White Carp,Grilled Fish,28,Recovery II,uncommon
+Arapaima,Grilled Giant Fish,75,Recovery III,rare
+Caparari,Grilled Giant Fish,54,Recovery III,rare
+Piraiba,Grilled Giant Fish,49,Recovery III,rare
+Tambaqui,Grilled Giant Fish,55,Recovery III,rare
+Alligator Gar,Grilled Giant Fish,108,Recovery III,rare
+Chain Pickerel,Grilled Fish,36,Recovery III,rare
+Saddled Birchir,Grilled Fish,36,Recovery III,rare
+Southern Logperch,Grilled Fish,21,Recovery III,rare
+Muskellunge,Grilled Giant Fish,69,Recovery III,rare
+Northern Pike,Grilled Fish,37,Recovery III,rare
+Stringfish,Grilled Giant Fish,58,Recovery III,rare
+Sturgeon,Grilled Giant Fish,106,Recovery III,rare
+Beluga,Grilled Giant Fish,133,Recovery III,rare
+King Salmon,Grilled Giant Salmon,55,Recovery III,rare
+Paddlefish,Grilled Giant Fish,102,Recovery III,rare
+Taimen,Grilled Giant Fish,54,Recovery III,rare
+Anchovy,Fish Patty,19,Recovery I,common
+Bluefish,Fish Patty,21,Recovery I,common
+Butterflyfish,Grilled Fish,22,Recovery I,common
+Cold Lamprey,Grilled Fish,24,Recovery I,common
+Northern Cod,Grilled Fish,27,Recovery I,common
+Northern Flounder,Grilled Fish,24,Recovery I,common
+Rock Cod,Grilled Fish,22,Recovery I,common
+Sculpin,Grilled Fish,27,Recovery I,common
+Seahorse,Grilled Fish,25,Recovery I,common
+Southern Cod,Grilled Fish,36,Recovery I,common
+Surgeonfish,Grilled Fish,25,Recovery I,common
+Yellowfin Sole,Grilled Fish,25,Recovery I,common
+Anglerfish,Grilled Giant Anglerfish,69,Recovery II,uncommon
+Barracuda,Grilled Giant Fish,51,Recovery II,uncommon
+Blue Devil,Grilled Fish,31,Recovery II,uncommon
+Clownfish,Fish Patty,19,Recovery II,uncommon
+Cold Goby,Grilled Fish,30,Recovery II,uncommon
+Haddock,Grilled Giant Fish,43,Recovery II,uncommon
+Jellyfish,Grilled Jellyfish,13,Recovery II,uncommon
+Ocean Triggerfish,Grilled Fish,34,Recovery II,uncommon
+Stingray,Grilled Giant Stingray,51,Recovery II,uncommon
+Basking Shark,Grilled Giant Shark,214,Recovery III,rare
+Squid,Grilled Giant Squid,325,Recovery III,rare
+Eel,Grilled Giant Eel,63,Recovery III,rare
+Great White Shark,Grilled Giant Shark,144,Recovery III,rare
+Kitefin Shark,Grilled Giant Shark,54,Recovery III,rare
+Sleeper Shark,Grilled Giant Shark,156,Recovery III,rare
+Swordfish,Grilled Giant Fish,73,Recovery III,rare
+Tiger Shark,Grilled Giant Shark,117,Recovery III,rare
+Tuna,Grilled Giant Tuna,72,Recovery III,rare
