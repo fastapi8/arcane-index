@@ -30,7 +30,8 @@
     "@evidence-dev/snowflake": "^1.2.4",
     "@evidence-dev/source-javascript": "^0.0.3",
     "@evidence-dev/sqlite": "^2.0.9",
-    "@evidence-dev/trino": "^1.0.11"
+    "@evidence-dev/trino": "^1.0.11",
+    "katex": "^0.16.47"
   },
   "overrides": {
     "jsonwebtoken": "9.0.0",
