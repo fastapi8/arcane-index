@@ -51,7 +51,9 @@ CREATE TABLE ingredients (
     variety_identity                 TEXT NOT NULL COLLATE NOCASE,
     ingredient_kind                  TEXT NOT NULL,
 
-    -- Imported display values for this ingredient by itself.
+    -- Initially loaded from the source display value. Migration 018 preserves
+    -- that measurement and corrects recognized max-level meals to their
+    -- level-1/base solo value.
     solo_energy                      INTEGER NOT NULL,
     solo_dish_type                   TEXT,
 
@@ -116,7 +118,7 @@ CREATE TABLE ingredient_modifiers (
     rarity_delta             INTEGER,
 
     CHECK (
-        modifier_name IN ('Small', 'Giant', 'Massive', 'Colossal', 'Arcane')
+        modifier_name IN ('Small', 'Giant', 'Massive', 'Arcane')
     ),
     CHECK (rarity_delta IS NULL OR rarity_delta BETWEEN -4 AND 4),
     UNIQUE (ingredient_id, modifier_name),
@@ -132,7 +134,7 @@ CREATE TABLE ingredient_modifiers (
 CREATE TRIGGER ingredient_modifiers_size_requires_fish_insert
 BEFORE INSERT ON ingredient_modifiers
 FOR EACH ROW
-WHEN NEW.modifier_name IN ('Small', 'Giant', 'Massive', 'Colossal')
+WHEN NEW.modifier_name IN ('Small', 'Giant', 'Massive')
 BEGIN
     SELECT CASE
         WHEN (
@@ -147,7 +149,7 @@ END;
 CREATE TRIGGER ingredient_modifiers_size_requires_fish_update
 BEFORE UPDATE OF ingredient_id, modifier_name ON ingredient_modifiers
 FOR EACH ROW
-WHEN NEW.modifier_name IN ('Small', 'Giant', 'Massive', 'Colossal')
+WHEN NEW.modifier_name IN ('Small', 'Giant', 'Massive')
 BEGIN
     SELECT CASE
         WHEN (

@@ -1,0 +1,13 @@
+.evidence/template
+.svelte-kit
+build
+node_modules
+.DS_Store
+static/data
+*.options.yaml
+.vscode/settings.json
+.env
+.evidence/meta
+
+# Generated from the canonical research database by `npm run data`.
+sources/arcane_index/arcane_odyssey_cooking.sqlite

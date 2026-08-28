@@ -1,0 +1,4 @@
+name: arcane_index
+type: sqlite
+options:
+  filename: arcane_odyssey_cooking.sqlite

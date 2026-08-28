@@ -12,13 +12,13 @@ CREATE TABLE ingredient_modifier_rules (
     PRIMARY KEY (ingredient_kind, modifier_name),
     CHECK (ingredient_kind IN ('normal', 'fish', 'seasoning', 'ice')),
     CHECK (
-        modifier_name IN ('Small', 'Giant', 'Massive', 'Colossal', 'Arcane')
+        modifier_name IN ('Small', 'Giant', 'Massive', 'Arcane')
     ),
     CHECK (energy_multiplier > 0)
 ) STRICT;
 
--- These rules apply to fish only. Colossal is intentionally omitted until its
--- energy multiplier is confirmed.
+-- These rules apply to fish only. Colossal is part of the canonical species
+-- name Colossal Squid and is not a modifier.
 INSERT INTO ingredient_modifier_rules (
     ingredient_kind,
     modifier_name,

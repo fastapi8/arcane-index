@@ -10,7 +10,7 @@ CREATE TABLE ingredient_modifier_exclusions (
 
     PRIMARY KEY (ingredient_id, modifier_name),
     CHECK (
-        modifier_name IN ('Small', 'Giant', 'Massive', 'Colossal', 'Arcane')
+        modifier_name IN ('Small', 'Giant', 'Massive', 'Arcane')
     ),
 
     FOREIGN KEY (ingredient_id)

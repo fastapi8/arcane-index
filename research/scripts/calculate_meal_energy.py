@@ -157,6 +157,16 @@ def calculate_meal(
             else Fraction(unique_count - 1, formula["interpolation_denominator"])
         )
         alpha_binary64 = float(alpha_exact)
+        interpolation_overrides = {
+            (row["ingredient_id"], row["unique_count"]): row
+            for row in connection.execute(
+                """
+                SELECT ingredient_id, unique_count, contribution_energy,
+                       verification_status, notes
+                FROM ingredient_interpolation_overrides
+                """
+            ).fetchall()
+        }
         contributions = []
         contribution_sum = 0
         for slot, row in enumerate(ingredients, start=1):
@@ -182,6 +192,13 @@ def calculate_meal(
                     1 + alpha_exact * (multiplier_exact - 1)
                 )
             contribution = math.floor(pre_floor_binary64)
+            contribution_override = (
+                interpolation_overrides.get((row["id"], unique_count))
+                if mode == "standard_interpolation_variety"
+                else None
+            )
+            if contribution_override is not None:
+                contribution = int(contribution_override["contribution_energy"])
             contribution_sum += contribution
             contributions.append(
                 {
@@ -192,6 +209,16 @@ def calculate_meal(
                     "pre_floor_exact": str(pre_floor_exact),
                     "pre_floor_binary64": pre_floor_binary64,
                     "contribution": contribution,
+                    "interpolation_override": (
+                        {
+                            "verification_status": contribution_override[
+                                "verification_status"
+                            ],
+                            "notes": contribution_override["notes"],
+                        }
+                        if contribution_override is not None
+                        else None
+                    ),
                     "counts_toward_unique_count": bool(
                         slot <= unique_limit and row["counts_in_first_four_diversity"]
                     ),
