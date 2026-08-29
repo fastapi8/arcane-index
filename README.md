@@ -61,3 +61,9 @@ base path is set to `/arcane-index` in `site/evidence.config.yaml` for project
 pages at `https://<owner>.github.io/arcane-index/`; change or remove it when
 using a custom domain. The deployed site has no runtime backend, authentication
 layer, or server-side database.
+
+## Continuous integration and deployment
+
+Pull requests run the research regression suite and a strict Evidence build.
+Pushes to `main` repeat those checks and deploy `site/build/` to GitHub Pages.
+The deployment can also be started manually from the Actions tab.
