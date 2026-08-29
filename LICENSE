@@ -1,23 +1,20 @@
-Arcane Index uses two licenses, applied by material type.
+Arcane Index licensing
 
-Software
-========
+Research, data compilation, analysis, and original written documentation:
+Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0).
 
-Software source code is licensed under the MIT License. This includes build and
-deployment configuration, application and component code, research scripts,
-tests, and datasource query code. See LICENSE-MIT.
+See LICENSE-RESEARCH for details.
 
-Research and documentation
-==========================
+Source code:
+All rights reserved unless otherwise stated.
 
-Original datasets, research records, observations, findings, analysis, charts,
-and written documentation are licensed under the Creative Commons
-Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0). This includes
-research/data, research/migrations, Markdown content in site/pages, and the
-research material presented by the generated site. See LICENSE-CC-BY-SA-4.0.
+Third-party sources and materials are not relicensed by Arcane Index.
 
-Where a file contains both software and research or documentation, each part is
-covered by the license applicable to that type of material.
+This license applies only to Arcane Index's original research, analysis,
+data compilation, and written documentation. Material incorporated or
+referenced from third-party sources remains subject to the copyright,
+license terms, and attribution requirements of its original source.
 
-Third-party material is not relicensed. It remains subject to the terms of its
-respective owner or source.
+Where Arcane Index incorporates or adapts CC BY-SA 4.0 material, such
+material remains available under CC BY-SA 4.0 and is attributed on the
+Sources page or otherwise alongside the relevant material.

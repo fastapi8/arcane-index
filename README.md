@@ -5,15 +5,7 @@ website.
 
 ## License
 
-This repository uses two licenses by material type:
-
-- Software source code is licensed under the [MIT License](LICENSE-MIT).
-- Original datasets, research records, observations, findings, analysis,
-  charts, and documentation are licensed under the [Creative Commons
-  Attribution-ShareAlike 4.0 International License](LICENSE-CC-BY-SA-4.0).
-
-See [LICENSE](LICENSE) for the scope of each license. Third-party material is
-excluded and remains subject to its original terms.
+This repository is dual licensed. See [LICENSE](LICENSE) for more details.
 
 ## Repository layout
 
