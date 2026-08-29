@@ -9,18 +9,20 @@ select
 from arcane_index.ingredients
 ```
 
-A data-backed reference for Arcane Odyssey cooking research.
+## License
 
-The research SQLite database is the canonical source. This static Evidence site
-is built from a generated snapshot of that database and does not require Python,
-an API, or a database server at runtime.
+Except where otherwise noted, Arcane Index’s original data compilation, research, analysis, and written documentation are licensed under the [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/). You may share and adapt this material, including commercially, provided you give appropriate credit to Arcane Index and indicate any changes made.
 
-<BigValue data={catalog_summary} value=rarity_count title="Rarity tiers" />
+Third-party material, including Arcane Odyssey game assets, screenshots, trademarks, and other content owned by their respective rights holders, is not covered by this license.
+
+Suggested attribution: “Data and analysis from Arcane Index by fastapi8, ReakToppom, and KozyAtmosphere — CC BY 4.0.”
+
+<!-- <BigValue data={catalog_summary} value=rarity_count title="Rarity tiers" />
 <BigValue data={catalog_summary} value=ingredients_with_statuses title="With statuses" />
 
-## Browse the index
+## Important links
 
-- [Ingredients](/ingredients) — searchable ingredient data
-- [Recipes](/recipes) — catalog view coming later
-- [Mechanics](/mechanics) — research notes coming later
-- [Analytics](/analytics) — analysis views coming later
+- [Ingredients](/ingredients)
+- [Recipes](/recipes)
+- [Mechanics](/mechanics)
+- [Analytics](/analytics) -->

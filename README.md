@@ -31,6 +31,13 @@ python3 research/scripts/calculate_meal_energy.py \
   --recipe "Balanced Meal"
 ```
 
+Regenerate the materialized max-level Simmered Fruit result distribution after
+changing ingredients or cooking mechanics:
+
+```sh
+python3 research/scripts/generate_simmered_fruit_results.py
+```
+
 ## Site commands
 
 Install the Evidence dependencies once:

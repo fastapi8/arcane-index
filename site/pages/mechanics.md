@@ -108,7 +108,8 @@ identity for it. Arcane, for instance, triples the raw energy of an ordinary
 non-fish ingredient; fish, however, are treated differently, and an Arcane
 fish receives 1.5× instead. The verified fish-size modifiers are Small at
 0.5×, Giant at 2×, and Massive at 3×, each applied to the underlying
-ingredient value before the meal formula is ever reached.
+ingredient value before the meal formula is ever reached ([Arcane Odyssey
+Wiki](https://roblox-arcane-odyssey.fandom.com/wiki/Arcane_Odyssey_Wiki)).
 
 Note that Arcane does **not** create a new identity for the purpose of
 diversity: Boar and Arcane Boar still count as one and the same
@@ -132,6 +133,9 @@ only unusual part is how their raw energy is determined in the first place,
 which comes from fish size rather than from any fixed per-species constant:
 
 <div class="mechanics-equation">{@html renderMath(equations.fishRaw, true)}</div>
+
+Source: [Arcane Odyssey
+Wiki](https://roblox-arcane-odyssey.fandom.com/wiki/Arcane_Odyssey_Wiki).
 
 After that raw value is established, any fish-size or Arcane modifier is
 applied on top of it. Salmon and Tuna each use a cooking multiplier of 1.2;
