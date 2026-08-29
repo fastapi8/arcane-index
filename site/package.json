@@ -1,6 +1,7 @@
 {
   "name": "arcane-index-site",
   "version": "0.0.1",
+  "license": "MIT",
   "scripts": {
     "data": "python3 ../research/scripts/export_site_data.py",
     "build": "npm run sources && evidence build",

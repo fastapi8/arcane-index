@@ -3,6 +3,18 @@
 Arcane Index separates verified cooking research from its static Evidence
 website.
 
+## License
+
+This repository uses two licenses by material type:
+
+- Software source code is licensed under the [MIT License](LICENSE-MIT).
+- Original datasets, research records, observations, findings, analysis,
+  charts, and documentation are licensed under the [Creative Commons
+  Attribution-ShareAlike 4.0 International License](LICENSE-CC-BY-SA-4.0).
+
+See [LICENSE](LICENSE) for the scope of each license. Third-party material is
+excluded and remains subject to its original terms.
+
 ## Repository layout
 
 - `research/data/` — canonical SQLite database and ingredient CSV
