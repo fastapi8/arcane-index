@@ -45,6 +45,8 @@ jobs:
 
       - name: Build site
         working-directory: site
+        env:
+          VITE_GOATCOUNTER_CODE: ${{ vars.GOATCOUNTER_CODE }}
         run: npm run build:strict
 
       - name: Upload GitHub Pages artifact

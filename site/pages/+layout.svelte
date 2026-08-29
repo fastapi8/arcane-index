@@ -2,8 +2,48 @@
 	import '@evidence-dev/tailwind/fonts.css';
 	import '../app.css';
 	import { EvidenceDefaultLayout } from '@evidence-dev/core-components';
+	import { afterNavigate } from '$app/navigation';
 
 	export let data;
+
+	const goatCounterCode = import.meta.env.VITE_GOATCOUNTER_CODE?.trim();
+	const goatCounterEndpoint = /^[a-z0-9-]+$/.test(goatCounterCode ?? '')
+		? `https://${goatCounterCode}.goatcounter.com/count`
+		: null;
+
+	let goatCounterLoader;
+
+	function loadGoatCounter() {
+		if (!goatCounterEndpoint) return Promise.resolve(null);
+		if (window.goatcounter?.count) return Promise.resolve(window.goatcounter);
+		if (goatCounterLoader) return goatCounterLoader;
+
+		goatCounterLoader = new Promise((resolve) => {
+			const script = document.createElement('script');
+			script.src = 'https://gc.zgo.at/count.v5.js';
+			script.async = true;
+			script.crossOrigin = 'anonymous';
+			script.integrity = 'sha384-atnOLvQb9t+jTSipvd75X2yginT4PjVbqDdlJAmxMm+wYElFmeR6EmLP5bYeoRVQ';
+			script.dataset.goatcounter = goatCounterEndpoint;
+			script.dataset.goatcounterSettings = JSON.stringify({ no_onload: true });
+			script.addEventListener('load', () => resolve(window.goatcounter));
+			script.addEventListener('error', () => resolve(null));
+			document.head.appendChild(script);
+		});
+
+		return goatCounterLoader;
+	}
+
+	afterNavigate(({ to }) => {
+		if (!to || !goatCounterEndpoint) return;
+
+		const path = `${to.url.pathname}${to.url.search}`;
+		const title = document.title;
+
+		loadGoatCounter().then((goatcounter) => {
+			goatcounter?.count({ path, title });
+		});
+	});
 </script>
 
 <EvidenceDefaultLayout {data} title="Arcane Index" builtWithEvidence={false}>
