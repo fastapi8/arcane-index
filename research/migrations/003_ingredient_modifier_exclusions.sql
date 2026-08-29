@@ -1,4 +1,3 @@
--- Confirmed ingredient-specific restrictions on otherwise available modifiers.
 PRAGMA foreign_keys = ON;
 
 BEGIN;

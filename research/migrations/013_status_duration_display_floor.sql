@@ -1,4 +1,3 @@
--- Confirmed status-duration presentation: fractional seconds are floored.
 PRAGMA foreign_keys = ON;
 
 BEGIN;

@@ -1,4 +1,3 @@
--- Structured recipe-resolution evidence from the first controlled test batch.
 PRAGMA foreign_keys = ON;
 
 BEGIN;

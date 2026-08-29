@@ -1,4 +1,3 @@
--- Global energy mechanics for modifiers applied to canonical ingredient bases.
 -- Modifier variants remain derived values and are not ingredient identities.
 PRAGMA foreign_keys = ON;
 

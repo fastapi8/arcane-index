@@ -218,7 +218,6 @@ def build_targets(rows: list[sqlite3.Row]) -> tuple[list[tuple[sqlite3.Row, Frac
     for row in canonical_fish:
         multiplier = FISH_OVERRIDES.get(row["name"], Fraction(1, 1))
         if row["name"] not in FISH_OVERRIDES:
-            # Apply overrides robustly even if the database uses different case.
             multiplier = next(
                 (value for name, value in FISH_OVERRIDES.items()
                  if normalized_name(name) == normalized_name(row["name"])),
@@ -388,7 +387,6 @@ def populate(database: Path) -> dict[str, Any]:
                 continue
 
             inferred = candidates[0]
-            # Verify with exact rational arithmetic immediately before any write.
             recomputed_solo = displayed_solo_energy(
                 inferred, multiplier, meal_level_multiplier
             )

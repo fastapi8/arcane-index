@@ -1,4 +1,3 @@
--- Cooking profession progression and reported status-duration mechanics.
 PRAGMA foreign_keys = ON;
 
 BEGIN;
@@ -52,8 +51,6 @@ VALUES
     (9,  1.5, 5, 1, 'Unlocks the fifth general cooking slot.'),
     (10, 1.5, 5, 1, 'No relevant calculation or slot change.');
 
--- Total duration is based on final meal energy, then divided evenly among the
--- distinct status types present in the meal.
 INSERT INTO status_duration_models (
     status_duration_model_code,
     energy_coefficient,

@@ -1,4 +1,3 @@
--- Correct the initially transcribed status-duration coefficient from 1.6 to 6.5.
 PRAGMA foreign_keys = ON;
 
 BEGIN;

@@ -1,7 +1,5 @@
 -- Run after importing data/ingredients.csv into _ingredient_csv_load.
--- This script imports the source transcription and materializes canonical base
--- ingredients plus their normalized statuses. It intentionally creates no
--- modifier rows because the CSV contains bases only.
+-- Modifier rows are omitted because the CSV contains bases only.
 PRAGMA foreign_keys = ON;
 
 BEGIN;

@@ -1,4 +1,3 @@
--- Machine-readable Simmered Fruit resolution and materialized max-level results.
 PRAGMA foreign_keys = ON;
 
 BEGIN;

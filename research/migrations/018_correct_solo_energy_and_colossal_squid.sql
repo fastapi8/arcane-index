@@ -1,6 +1,3 @@
--- Correct source-table max-level meal values to level-1/base solo energy while
--- preserving the imported measurements. Also correct Colossal Squid's canonical
--- identity: "Colossal" is part of this species name, not a fish modifier.
 PRAGMA foreign_keys = ON;
 
 BEGIN IMMEDIATE;

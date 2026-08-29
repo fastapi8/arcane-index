@@ -1,4 +1,3 @@
--- Controlled recipe-resolution observations: batch 5.
 PRAGMA foreign_keys = ON;
 
 BEGIN;

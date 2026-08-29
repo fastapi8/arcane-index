@@ -1,5 +1,3 @@
--- Verified ingredient-specific interpolation overrides and non-blocking warnings
--- for historical modifier anomalies.
 PRAGMA foreign_keys = ON;
 
 BEGIN IMMEDIATE;

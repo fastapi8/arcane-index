@@ -65,7 +65,6 @@ CREATE TABLE recipe_effects (
         ON DELETE CASCADE
 ) STRICT;
 
--- Exceptional resolution conditions that do not fit an ingredient-count recipe.
 CREATE TABLE recipe_resolution_exceptions (
     recipe_resolution_exception_id  INTEGER PRIMARY KEY,
     recipe_id                       INTEGER NOT NULL,

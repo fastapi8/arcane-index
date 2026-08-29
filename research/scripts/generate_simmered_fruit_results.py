@@ -158,7 +158,7 @@ def generate(database: Path | str = DEFAULT_DATABASE) -> tuple[int, int]:
             )
             outcomes[key] += multiplier
 
-        # Two to four occupied general slots. All are within the diversity region.
+        # All occupied slots are within the diversity region.
         for general_count in range(2, 5):
             for fruit_count in range(2, general_count + 1):
                 seasoning_slots = general_count - fruit_count

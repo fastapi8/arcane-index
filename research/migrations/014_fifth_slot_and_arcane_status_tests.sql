@@ -1,4 +1,3 @@
--- Verified fifth-slot status behavior and Arcane Invigorating observations.
 PRAGMA foreign_keys = ON;
 
 BEGIN;

@@ -1,4 +1,3 @@
--- Controlled Balanced Meal energy and status-tier observations: status batch 1.
 PRAGMA foreign_keys = ON;
 
 BEGIN;

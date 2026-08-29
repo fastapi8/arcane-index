@@ -1,4 +1,3 @@
--- Canonical ingredient data for the Arcane Odyssey cooking dataset.
 -- SQLite foreign-key enforcement is connection-local, so enable it for every
 -- connection that reads or writes this database as well as when applying this
 -- migration.
@@ -18,7 +17,6 @@ CREATE TABLE ingredient_import (
     status_effects           TEXT,
     rarity                   TEXT,
 
-    -- Set during normalization; both columns are initially nullable.
     normalized_ingredient_id INTEGER,
     normalized_modifier_id   INTEGER,
     imported_at              TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
@@ -57,7 +55,6 @@ CREATE TABLE ingredients (
     solo_energy                      INTEGER NOT NULL,
     solo_dish_type                   TEXT,
 
-    -- Underlying cooking mechanics, to be confirmed and populated later.
     raw_energy                       INTEGER,
     cook_multiplier                  REAL,
     base_rarity                      TEXT NOT NULL,
@@ -79,7 +76,6 @@ CREATE TABLE ingredients (
     UNIQUE (variety_identity)
 ) STRICT;
 
--- Canonical status families, independent of displayed tier.
 CREATE TABLE statuses (
     status_id       INTEGER PRIMARY KEY,
     name            TEXT NOT NULL COLLATE NOCASE,
